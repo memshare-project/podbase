@@ -139,6 +139,7 @@ main { padding: 18px 0 48px; }
   color: var(--accent);
 }
 .pill.advanced { background: #ece7f6; color: #5b4578; }
+.pill.expert { background: #fde8d0; color: #8a4b12; }
 
 .detail-head {
   display: grid;

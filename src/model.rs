@@ -1,11 +1,12 @@
 use serde::{Deserialize, Serialize};
 
-/// 策展难度。与 memshare `PodcastLevel` 一致。
+/// 策展难度：入门、进阶、高级。
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(rename_all = "lowercase")]
 pub enum Level {
     Beginner,
     Advanced,
+    Expert,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]

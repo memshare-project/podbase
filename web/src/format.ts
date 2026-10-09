@@ -10,6 +10,7 @@ export const PLATFORM: Record<string, string> = {
 export const LEVEL: Record<string, string> = {
   beginner: "入门",
   advanced: "进阶",
+  expert: "高级",
 };
 
 export function formatDate(iso: string | null | undefined): string {

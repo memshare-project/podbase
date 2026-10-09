@@ -1,4 +1,4 @@
-export type Level = "beginner" | "advanced";
+export type Level = "beginner" | "advanced" | "expert";
 
 export type Category = {
   id: string;
